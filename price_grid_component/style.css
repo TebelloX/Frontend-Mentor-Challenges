@@ -4,20 +4,22 @@
 
 :root {
   --cyan: hsl(179, 62%, 43%);
-  --yellow: hsl(71, 73%, 54%)
+  --yellow: hsl(71, 73%, 54%);
+  --lgrey: hsl(204, 43%, 93%);
 }
 
 body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: red;
+    background-color: var(--lgrey);
 }
 
 .container {
     width: 630px;
     height: 470px;
     background-color: var(--yellow);
+    margin-top: 160px;
 }
 
 .footer {
