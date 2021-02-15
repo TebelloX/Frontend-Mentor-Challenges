@@ -19,3 +19,11 @@ body {
     height: 470px;
     background-color: var(--yellow);
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
