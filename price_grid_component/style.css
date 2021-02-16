@@ -12,6 +12,7 @@ margin: 0;
 
 :root {
   --cyan: hsl(179, 62%, 43%);
+  --cyan2: hsl(179, 62%, 49%);
   --yellow: hsl(71, 73%, 54%);
   --lgrey: hsl(204, 43%, 93%);
 }
@@ -24,16 +25,31 @@ body {
 }
 
 .container {
-    border-radius: 0.5em;
+    border-radius: 1rem;
     width: 630px;
     height: 470px;
     background-color: var(--yellow);
     margin-top: 160px;
 }
 
+.community {
+    background-color: white;
+    height: 210px;
+}
+.subscription {
+    border: 1px solid white;
+    background-color: var(--cyan);
+    width: 50%;
+}
+.why {
+    border: 1px solid aqua;
+    background-color: var(--cyan2);
+    width: 50%;
+}
 .bottom {
     display: flex;
     background-color: pink;
+    height: 260px;
 }
 
 .footer {
@@ -42,4 +58,8 @@ body {
     bottom: 0;
     width: 100%;
     text-align: center;
+}
+
+ul li {
+    list-style-type: none;
 }
